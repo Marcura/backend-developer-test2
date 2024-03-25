@@ -9,7 +9,7 @@ The file contains the following columns:
 * leg_duration - trip duration in milliseconds
 * points - an array of vessel observations from GPS where observation is [longitude, latitude, timestamp in epoch milliseconds, actual vessel speed in knots]
 
-Please write a Java program that will calculate the most "representative" route between two ports.
+Please write a Java or Go program that will calculate the most "representative" route between two ports.
 Result should be stored in GeoJSON format, so can be easily visualized on the map.
 
 PS. Please publish the solution to your GitHub and invite us to review it.
