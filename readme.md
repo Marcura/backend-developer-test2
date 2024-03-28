@@ -13,7 +13,7 @@ The file contains the following columns:
 * points - an array of vessel observations from GPS where observation is [longitude, latitude, timestamp in epoch milliseconds, actual vessel speed in knots]
 
 There is also a [DEBRV_DEHAM_historical_routes.geojson.json](./DEBRV_DEHAM_historical_routes.geojson.json) GEOJSON file that you can use to visualize the routes. 
-You can use https://geojson.io to load the file online
+You can use [https://geojson.io](https://geojson.io) to load the file online
 
 Please write a Java or Go program that will calculate the most "representative" route between two ports.
 Result should be stored in GeoJSON format, so can be easily visualized on the map.
